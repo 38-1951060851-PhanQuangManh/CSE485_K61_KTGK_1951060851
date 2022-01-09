@@ -59,8 +59,8 @@
                                                 <td><?php echo $row['ngaycapthe']; ?></td>
                                                 <td><?php echo $row['ngayhethan']; ?></td>
                                                 <td><?php echo $row['diachi']; ?></td>
-                                                <td><a href="update.php?bd_id=<?php echo $row['madg']; ?>"></i>Sửa</a></td>
-                                                <td><a href="delete.php?bd_id=<?php echo $row['madg']; ?>"><i class="fas fa-trash-alt"></i>Xóa</a></td>
+                                                <td><a href="update.php?madg=<?php echo $row['madg']; ?>"></i>Sửa</a></td>
+                                                <td><a href="delete.php?madg=<?php echo $row['madg']; ?>"><i class="fas fa-trash-alt"></i>Xóa</a></td>
                                             </tr>
                                     <?php
                                             $i++;
